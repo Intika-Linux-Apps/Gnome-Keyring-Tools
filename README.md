@@ -14,7 +14,7 @@ Tools To Check And Control Gnome Keyring State
     python gkey-check.py
 
 **Note :**
-The tools check the default keyring storage, if you want to check a different keyring just replace NULL with the name of your karing 
+The tools check the default keyring storage, if you want to check a different keyring just replace NULL with the name of your keyring 
 
 **Bonus - Monitor Gnome Keyring State In KDE Taskbar/Tray :**
 I made gkey-check return error when its unlocked in addition to the string unlocked i could then use KDE Server Status widget to monitor keyring state locked/unlocked with a visual icon :) with the command gkey-check
