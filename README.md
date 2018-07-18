@@ -1,4 +1,4 @@
-# gnome-keyring-tools (Plus kde kwallet)
+# gnome-keyring-tools (& kde kwallet)
 Tools To Check And Control Gnome Keyring State
 
 - Lock Keyring - gkey-lock.c
