@@ -34,7 +34,7 @@ The equivalent of this tool for KDE Wallet is :
 
     qdbus org.kde.kwalletd /modules/kwalletd closeAllWallets
     
-**Equivalent of gkey-ckeck** :
+**Equivalent of gkey-ckeck.c kwallet-check.c** :
 
     #include <stdio.h>
     #include <stdlib.h>
