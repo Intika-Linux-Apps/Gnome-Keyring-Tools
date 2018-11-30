@@ -19,6 +19,12 @@ The tools check the default keyring storage, if you want to check a different ke
 **Bonus - Monitor Gnome Keyring State In KDE Taskbar/Tray :**
 I made gkey-check return error when its unlocked in addition to the string unlocked i could then use KDE Server Status widget to monitor keyring state locked/unlocked with a visual icon :) with the command gkey-check
 
+# Alternative Method :
+As gnome_keyring_lock_all_sync is depreciated we can use dbus to lock gnome-keyring with this command :
+
+    qdbus org.gnome.keyring /org/freedesktop/secrets org.freedesktop.Secret.Service.LockService
+
+
 # kde-kwallet-tools
 The equivalent of this tool for KDE Wallet is :
 
